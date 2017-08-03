@@ -1,1 +1,100 @@
 /* Agrega aquí tus estilos*/
+/* Agrega aquí tus estilos*/
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: -0px 20px 40px 20px;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+
+h2, h3 {
+  font-family: fantasy;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+abbr {
+    
+}
+
+a {
+    cursor: pointer;
+    position: relative;
+    padding: 1px 2px 1px 2px;
+    background: salmon;
+    font-size: 15px;
+    transition: 0.2s;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+    background: #fff;
+}
+
+a:hover {
+    background: yellow;
+}
+
+.sidebar a {
+    cursor: pointer;
+    position: relative;
+    padding: 1px 2px 1px 2px;
+    background: salmon;
+    font-size: 15px;
+    transition: 0.2s;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.sidebar a {
+    background: #d9d9d9;
+}
+
+.sidebar a:hover {
+    background: salmon;
+}
+
+
+header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebar {
+    padding: 10px;
+    width: 100%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar:hover {
+    background-color: #d9d9d9;
+}
