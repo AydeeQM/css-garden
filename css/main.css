@@ -47,8 +47,71 @@ a abbr {
     color: inherit; 
 }
 
-.page-wrapper { position: relative; width: 1000px; background: #fff url(ferlauf.png) repeat-x 0 95%; }
+.page-wrapper { 
+    position: relative; 
+    width: 1000px; 
+    background: #fff url(ferlauf.png) repeat-x 0 95%; 
+}
 
-.intro { background: url(header.png) no-repeat 216px 0; width: 1200px; padding-top: 240px; }
+.intro { 
+    background: url(header.png) no-repeat 216px 0; 
+    width: 1200px; 
+    padding-top: 240px; 
+}
 
-header { position: absolute; left: -9999px; top: 0; width: 0; height: 0; overflow: hidden; }
+header { 
+    position: absolute; 
+    left: -9999px; 
+    top: 0; 
+    width: 0; 
+    height: 0; 
+    overflow: hidden; 
+}
+.summary { 
+    width: 200px; 
+    margin-left: 440px; 
+}
+
+.summary p { 
+    margin-bottom: 10px; 
+    color: #f6f6f6; 
+}
+
+.summary abbr { 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+.summary a { 
+    color: #ff0705; 
+    font-weight: bold; 
+    border-bottom: 1px solid #ff0705; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.summary p:last-child { width: 400px; margin-bottom: 45px; }
