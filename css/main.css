@@ -1,100 +1,48 @@
 /* Agrega aquí tus estilos*/
-/* Agrega aquí tus estilos*/
-* {
-    box-sizing: border-box;
-}
-body {
-    padding: -0px 20px 40px 20px;
+* { 
+    margin: 0; 
+    padding: 0; 
 }
 
-h1 {
-    font-family: fantasy;
-    font-size: 50px;
-    
+html { 
+    background: #000; 
+    color: #fff; 
+    font: 65%/1.5 Arial, Helvetica, sans-serif; 
 }
 
-h2, h3 {
-  font-family: fantasy;
+body { 
+    background: #000; 
 }
 
 p {
-    font-family: sans-serif;
+    font-size: 1.2em; line-height: 19px; 
 }
 
-abbr {
-    
+* html p {
+    line-height: 1.5em; 
 }
 
-a {
-    cursor: pointer;
-    position: relative;
-    padding: 1px 2px 1px 2px;
-    background: salmon;
-    font-size: 15px;
-    transition: 0.2s;
-    
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+ul { 
+    list-style: none; 
 }
 
-a {
-    background: #fff;
+a { 
+    color: #da0000; 
+    text-decoration: none; 
+    border-bottom: 1px solid #da0000; 
 }
 
-a:hover {
-    background: yellow;
+a:hover { 
+    color: #000; border: 0 !important; 
 }
 
-.sidebar a {
-    cursor: pointer;
-    position: relative;
-    padding: 1px 2px 1px 2px;
-    background: salmon;
-    font-size: 15px;
-    transition: 0.2s;
-    
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+abbr { 
+    border: 0; 
+    font-style: italic; 
+    color: #da0000; 
+    cursor: help; 
 }
 
-.sidebar a {
-    background: #d9d9d9;
-}
-
-.sidebar a:hover {
-    background: salmon;
-}
-
-
-header {
-    background-color: #f44336;
-    padding: 30px 40px;
-    color: white;
-    text-align: center;
-}
-
-header:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.sidebar {
-    padding: 10px;
-    width: 100%;
-    background: #d9d9d9;
-    color: #555;
-    float: left;
-    text-align: left;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.sidebar:hover {
-    background-color: #d9d9d9;
+a abbr { 
+    color: inherit; 
 }
