@@ -88,7 +88,26 @@ header {
     border-bottom: 1px solid #ff0705; 
 }
 
+.summary p:last-child {
+    width: 400px; 
+    margin-bottom: 45px; 
+}
 
+.preamble p, .supporting p { 
+    margin-left: 340px; 
+    width: 400px; 
+    margin-bottom: 1em; 
+    text-align: justify; 
+}
+
+.preamble a, .supporting a { 
+    font-weight: bold; 
+}
+
+.summary h3, .preamble h3, .supporting h3 { 
+    height: 46px; 
+    margin-left: 340px; 
+}
 
 
 
