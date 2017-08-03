@@ -46,3 +46,9 @@ abbr {
 a abbr { 
     color: inherit; 
 }
+
+.page-wrapper { position: relative; width: 1000px; background: #fff url(ferlauf.png) repeat-x 0 95%; }
+
+.intro { background: url(header.png) no-repeat 216px 0; width: 1200px; padding-top: 240px; }
+
+header { position: absolute; left: -9999px; top: 0; width: 0; height: 0; overflow: hidden; }
